@@ -1,0 +1,159 @@
+html {
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'Raileway';
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+header {
+  height: 250px;
+  background: #1976d2;
+  padding: 23px 0;
+  color: white;
+  background-image: url("../images/sunset-platform.jpg");
+  background-size: auto 300px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+header h1 {
+  text-align: right;
+  padding-right: 10px;
+}
+
+nav.main-nav {
+  background: #fff;
+  height: 60px;
+  border-bottom: 1px solid #dadada;
+  text-align: center;
+}
+
+.container {
+  display: inline;
+  margin: 0 auto;
+}
+
+nav.main-nav a {
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 19px;
+  color: #00bf90;
+}
+
+nav a.active,nav a:hover {
+    background:#ecf0f1;
+    font-weight: bold;
+    color: #00bf90;
+    border-bottom: 2px solid #00bf90;
+}
+
+.content {
+    color:#222;
+    padding:50px;
+    -webkit-column-count:3;
+/* Chrome, Safari, Opera */
+    -moz-column-count:3;
+/* Firefox */
+    column-count:3;
+    -webkit-column-gap:40;
+    column-gap:40px;
+}
+
+.content h2 {
+    margin:0;
+}
+
+nav.main-nav.stickytop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+::-moz-selection {
+    background:#b3d4fc;
+    text-shadow:none
+}
+
+::selection {
+    background:#b3d4fc;
+    text-shadow:none
+}
+
+@media all and (min-width: 360px) and (max-width: 480px) {
+    header {
+        padding:5px 0 55px;
+    }
+
+    nav.main-nav a {
+        font-size:17px;
+    }
+
+    nav.main-nav {
+        height:55px;
+    }
+
+    .container {
+        margin:0 auto;
+        width:50%;
+
+    }
+
+    .content {
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding:5px 0 55px;
+    }
+
+    nav.main-nav a {
+        font-size:17px;
+    }
+
+    nav.main-nav {
+        height:55px;
+    }
+    .container {
+      width:92%;
+    }
+    header {
+    padding:5px 0 55px;
+}
+
+nav.main-nav a {
+    font-size:17px;
+}
+
+nav.main-nav {
+    height:55px;
+}
+
+.container {
+    width:92%;
+}
+
+.content {
+    -webkit-column-count:1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count:1;
+    /* Firefox */
+    column-count:1
+}
+}
