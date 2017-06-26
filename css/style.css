@@ -11,14 +11,15 @@ body {
   font-family: "Raleway", Arial, sans-serif;
 }
 
-header {
+/*header {
   height: 250px;
   background: #1976d2;
   padding: 23px 0;
   color: white;
   background-image: url("../images/sunset-platform.jpg");
   background-size: auto 300px;
-}
+}*/
+
 
 h1 {
   font-size: 50px;
@@ -35,6 +36,7 @@ nav.main-nav {
   background: #fff;
   height: 60px;
   border-bottom: 1px solid #dadada;
+  box-shadow: 0 20px 20px -20px #333;
   text-align: center;
 }
 
@@ -55,7 +57,7 @@ nav a.active,nav a:hover {
     background:#ecf0f1;
     font-weight: bold;
     color: #00bf90;
-    border-bottom: 2px solid #00bf90;
+    /*border-bottom: 1px solid #00bf90;*/
 }
 
 .content {
@@ -90,17 +92,18 @@ nav.main-nav.stickytop {
     text-shadow:none
 }
 
-@media all and (min-width: 360px) and (max-width: 480px) {
+@media only screen and (min-width: 360px) and (max-width: 480px) {
     header {
-        padding:5px 0 55px;
-    }
+        padding:0;
+        margin: 0;
+         }
 
     nav.main-nav a {
         font-size:17px;
     }
 
     nav.main-nav {
-        height:55px;
+        height:105px;
     }
 
     .container {
@@ -115,6 +118,19 @@ nav.main-nav.stickytop {
         -moz-column-count:1;
         /* Firefox */
         column-count:1;
+    }
+    .mySlides{
+      display: none;
+      height: 25%;
+      width: 20%;
+    }
+    .slideshow{
+      width: 100%;
+      height: 100px;
+      overflow:hidden;
+      margin: 0 auto;
+      padding-top: 0;
+      padding: 0;
     }
 }
 
@@ -134,7 +150,20 @@ nav.main-nav.stickytop {
       width:92%;
     }
     header {
-    padding:5px 0 55px;
+    padding:0;
+}
+.mySlides{
+  display: none;
+  height: 25%;
+  width: 20%;
+}
+.slideshow{
+  width: 100%;
+  height: 100px;
+  overflow:hidden;
+  margin: 0 auto;
+  padding-top: 0;
+  padding: 0;
 }
 
 nav.main-nav a {
@@ -154,6 +183,41 @@ nav.main-nav {
     /* Chrome, Safari, Opera */
     -moz-column-count:1;
     /* Firefox */
-    column-count:1
+    column-count:1;
 }
+}
+
+.sectionFooter{
+  background-color: #fff;
+  color: #25681E;
+  height: 100%;
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+  text-align: center;
+}
+
+.sectionFooter a{
+  text-decoration: none;
+  color: #25681E;
+}
+.napelemkollektor img{
+  margin-bottom: 10%;
+  border-radius: 10px;
+  border: 1px #25681E;
+}
+.napelemkollektor p{
+  margin-bottom:10%;
+}
+.mySlides{
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+.slideshow{
+  width: 100%;
+  height: 400px;
+  overflow:hidden;
+  margin: 0 auto;
+  padding-top: 0;
 }
