@@ -1,2 +1,2 @@
 # enviz.hu
-Envíz Kft. Wegsite
+Envíz Kft. Website
