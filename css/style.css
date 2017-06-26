@@ -1,7 +1,0 @@
-html {font-size: 1em;line-height: 1.4;font-family: 'Raileway';}
-body {font-size: 16px;margin: 0;padding: 0;font-family: "Raleway", Arial, sans-serif;}
-
-.container {max-width: 1200px;}
-
-/*Top Navigation Bar*/
-.navbar a {text-decoration: none; color: black; padding: 15px 19px; column-count: 4; -moz-column-count: 4; -webkit-column-count: 4;}
