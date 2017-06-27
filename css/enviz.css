@@ -1,17 +1,55 @@
-body {padding-top: 3rem; padding-bottom: 3rem; color: #5a5a5a;}
+/* NAVIGATION BAR
+---------------------------------------------------*/
+.bg-inverse {background-color: #7cb342 !important;}
+.nav-item { padding-right: 2rem; padding-left: 2rem;}
 
-.carousel {margin-bottom: 4rem;}
+.nav-item:hover { box-shadow: inset 0 0 0 25px #53a7ea;}
+#top-navigation-bar { height: 3.5rem; }
 
 
-.carousel-caption {z-index: 10; bottom: 3rem;}
+/* FOOTER
+----------------------------------------------------*/
+#myFooter { background-color: #292c2f; height: 16rem; padding-top: 2rem; margin-top: 2rem; color: white;}
+.row .col-lg-4 { text-align: center;}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
 
 /* Declare heights because of positioning of img element */
-.carousel-item { height: 32rem; background-color: #777; }
-.carousel-item > img { position: absolute; top: 0; left: 0; min-width: 100%; height: 32rem; }
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+/* MARKETING CONTENT -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -27,8 +65,7 @@ body {padding-top: 3rem; padding-bottom: 3rem; color: #5a5a5a;}
 }
 
 
-/* Featurettes
-------------------------- */
+/* Featurettes ------------------------- */
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -42,8 +79,7 @@ body {padding-top: 3rem; padding-bottom: 3rem; color: #5a5a5a;}
 }
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* RESPONSIVE CSS -------------------------------------------------- */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -62,8 +98,5 @@ body {padding-top: 3rem; padding-bottom: 3rem; color: #5a5a5a;}
   .featurette-heading {
     margin-top: 7rem;
   }
-}
-
-.navbar {
-  box-shadow: 20px 20px -20px black;
+  .navbar-brand { border-right: 0.1rem solid white; padding-right: 2rem;}
 }
